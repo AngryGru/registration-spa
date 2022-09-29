@@ -1,0 +1,40 @@
+.formContainer {
+  box-sizing: border-box;
+  border: 3px solid #3b185f;
+  border-radius: 10px;
+  padding: 10px;
+
+  width: 45%;
+  margin: 20px auto;
+
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.signUpFormTitle {
+  font-weight: 600;
+  font-size: 24px;
+}
+.nextBtn {
+  width: 100px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+  .formContainer {
+    width: 60%;
+  }
+}
+@media (max-width: 767px) {
+  .formContainer {
+    width: 70%;
+  }
+}
+@media (max-width: 480px) {
+  .formContainer {
+    width: 90%;
+  }
+}
+@media (max-width: 320px) {
+  .formContainer {
+    width: 90%;
+  }
+}
