@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/registration-spa/static/css/main.2bc55742.css",
+    "main.js": "/registration-spa/static/js/main.51bd881d.js",
+    "index.html": "/registration-spa/index.html",
+    "main.2bc55742.css.map": "/registration-spa/static/css/main.2bc55742.css.map",
+    "main.51bd881d.js.map": "/registration-spa/static/js/main.51bd881d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2bc55742.css",
+    "static/js/main.51bd881d.js"
+  ]
+}
