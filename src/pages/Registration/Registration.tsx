@@ -1,14 +1,18 @@
 import React from "react";
 import "./Registration.css";
 
-import Button from "react-bootstrap/Button";
-import "bootstrap/dist/css/bootstrap.min.css";
+import Header from "../../components/Header";
+import Main from "../../components/Main";
+import Footer from "../../components/Footer";
+import Breadcrumbs from "../../components/Breadcrumbs";
 
-function Registration() {
+function Registration({ children }: any) {
   return (
-    <div className="RegistrationContainer">
-      <p>HELLO</p>
-      <Button variant="primary">Click</Button>
+    <div className="registrationContainer">
+      <Header />
+      <Breadcrumbs />
+      {children}
+      <Footer />
     </div>
   );
 }
