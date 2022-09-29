@@ -1,0 +1,11 @@
+.headerContainer {
+  font-size: 20px;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: #2a0944;
+  color: white;
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  max-height: 200px;
+}
