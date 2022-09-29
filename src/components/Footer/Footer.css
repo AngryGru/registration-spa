@@ -1,0 +1,8 @@
+.footerContainer {
+  font-size: 15px;
+  background-color: #2a0944;
+  color: white;
+  padding: 10px;
+  text-align: center;
+  max-height: 200px;
+}
